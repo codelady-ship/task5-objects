@@ -2,7 +2,10 @@
 Konsola doğum tarixini çıxarın.
 Adınız, cinsiniz və doğum tarixiniz olan user obyekti yaradın (ad, gender, birthday).
 Konsola doğum tarixini çıxarın.*/
-const person ={}
+const person ={
+  ad:Ayten 
+  gender:
+}
 
 
 
