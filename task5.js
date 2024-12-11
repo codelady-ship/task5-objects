@@ -43,9 +43,30 @@ qalan illərin məbləğini ${ getYearsBeforeRetirement(bank.pulu)}dir`)
 Kalkulyator obyekti yaradın.
 Əsas riyazi hesablamaları yerinə yetirən və nəticəni yaddaşda saxlaya bilən kalkulyator obyekti yaradın.
   - Obyekt yaradın və toplama, çıxma, vurma, bölmə üçün metodlar əlavə edin. */ 
-
+const operator{
+  o1:"+",
+  o2:"-",
+  o3:"*",
+  o4:"/",
+}
+function calculate(n1,n2,o)
+    if(operator.o1)
+      document.write(`${n1}+${n2}=${n1+n2}<br/>`);
+    else if(operator.o2)
+      document.write(`${n1}-${n2}=${n1-n2}<br/>`);
+    else if(operator.o3){
+      document.write(`${n1}*${n2}=${n1*n2}<br/>`);
+    }else if(operator.o4)
+      if(operator.o4 && n2=== 0 ){
+      document.write("0-ra bolme mumkun deyil")
+    }
+     else if(
+     document.write(`${n1}/${n2}=${n1/n2}<br/>`);
+    )else{"duzgun deyer yaz. <br/>"};
+ console.log{calculate}
 /*Tapşırıq-05. propertyTaker() adında funksiya yaradın. Arqument kimi obyekt (obj) və string (proprtyName) alsin. Hemin obyektin verdiyim propertyni ekrana cixarsin. Mes:
 
 propertyTaker({ qitə: 'Asiya', ölkə: 'Yaponiya'}, 'qitə') // 'Asiya'
 propertyTaker({ ölkə: 'İsveç', qitə: 'Avropa'}, 'ölkə') // ' İsveç'
 propertyTaker({ad:'roma', yaş:12}, 'ad') // 'roma'*/
+function propertyTaker() 
