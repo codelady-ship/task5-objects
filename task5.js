@@ -18,8 +18,11 @@ Alınmış obyekti konsola çıxarın.*/
 
 const uzv={
   yasi:25,
-  dogumTarixi:""
+  dogumTarixi:"23.12.2000"
 }
+console.log(uzv)
+uzv.ad
+delete.uzv  
 document.write(`uzvun yasi ${uzv.yasi}dir`)
 
 
@@ -33,12 +36,11 @@ Bu metodları çağırın.*/
 const bank={
   member:"Eli",
   yas:25,
-  adGunu:"15.05.2001",
-  pulu:25000
+  setAge:function(age){
+    thid.yas=age
+  }
  }
- setAge(bank.yas)
- document.write(` pensiyaya qədər
-qalan illərin məbləğini ${ getYearsBeforeRetirement(bank.pulu)}dir`)
+ 
 /*Tapşırıq-04
 Kalkulyator obyekti yaradın.
 Əsas riyazi hesablamaları yerinə yetirən və nəticəni yaddaşda saxlaya bilən kalkulyator obyekti yaradın.
